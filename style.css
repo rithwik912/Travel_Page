@@ -72,10 +72,11 @@ li:hover{
     text-align: center;
     border-radius: 5px;
 }
+.card1,.card2,.card3{
+    transition: transform 1s;
+}
 .card1:hover,.card2:hover,.card3:hover{
     transform: scale(1.1);
-    transition: transform 1s;
-
 }
 .about-us{
     padding-top: 40px;
