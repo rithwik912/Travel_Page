@@ -89,6 +89,10 @@ li:hover{
 .side-image{
     max-width: 400px;
     transform: translateY(-20px);
+    transition: transform 1s;
+}
+.side-image:hover{
+    transform: scale(1.05) ;
 }
 .side-text{
     max-width: 500px;
